@@ -1,0 +1,313 @@
+.header {
+    height: auto;
+  position: relative;
+    background-color: #FFFFFF;
+}
+
+/*
+
+*{
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+*/
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-weight: 300;
+    padding: 10px;
+    color: dimgrey;
+}
+
+.header .mdl-layout__header-row {
+  padding: 0;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mdl-layout__title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.is-compact .mdl-layout__title span {
+  display: none;
+}
+
+.portfolio-logo-row {
+  min-height: 200px;
+    height: 70px;
+}
+
+.is-compact .portfolio-logo-row {
+  min-height: auto;
+}
+
+.portfolio-logo {
+  background: url(images/logoAMS.png) 50% no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  margin: auto auto 10px;
+}
+
+.is-compact .portfolio-logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+
+.portfolio-navigation-row {
+  background-color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  height: 70px;
+}
+
+.portfolio-navigation-row  .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.portfolio-navigation-row .mdl-navigation__link {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 69px;
+}
+
+.header .mdl-layout__drawer-button {
+    background-color: rgba(197, 197, 197, 0.44);
+}
+
+.portfolio-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+
+.portfolio-navigation-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(2,136,209);
+  left: 15%;
+}
+
+
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.portfolio-copy {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-left-padding{
+  padding-left: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top {
+  padding: 10px 0 0;
+}
+
+.portfolio-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}
+
+.demo-card-event > .mdl-card__actions {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.portfolio-contact .mdl-textfield {
+  width: 100%;
+}
+
+.portfolio-contact form {
+  max-width: 550px;
+  margin: auto;
+}
+
+footer {
+  background-image: url(images/footer-background.png);
+  background-size: cover;
+}
+
+
+.img_background {
+    background-image: url(images/subtle_surface.png);
+    height: 1000px;
+    width: auto;
+    
+    background-size:contain;
+    
+}
+
+.nav-text {
+    
+    font-size: 16px;
+    color: #F5F5F5;
+    font-weight: 100;
+        
+}
+
+.mdl-layout__header {
+    min-height: 40px;
+}
+
+.nav-text-active {
+    font-size: 16px;
+    color: #1976D2;
+    font-weight: 500;
+    
+}
+
+.img_main {
+    width:inherit;
+    object-fit:cover;
+
+}
+
+.sub_title {
+    
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 0px;
+    color: #424242; 
+    font-weight: 300;
+    
+}
+
+.img_icon {
+    
+    margin: 30px;
+}
+
+.text_under_icons {
+    font-weight: 300;
+    color: #424242;
+    padding: 20px;
+}
+
+.nav_edit_background {
+    background-color:  #F5F5F5;
+    background-size: contain;
+}
+
+.grad {
+    width: inherit;
+    position: absolute;
+    
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-linear-gradient(top,  rgba(0,0,0,1.5) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1.5) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,1.5) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.title {
+    position:absolute;
+    width: inherit;
+    padding: 50px;
+    color: #F5F5F5;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.inimg_nav {
+    position: absolute;
+    width:inherit;
+}
+
+.brand {
+    position: absolute;
+    padding: 30px 30px;
+    
+}
+
+.items_in_nav {
+    padding: 30px !important;
+}
+
+.paralax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.parallax-windows {
+    min-height: 400px;
+    width: inherit;
+    background: transparent;
+}
+
+.maindiv {
+     background-image: url(images/subtle_surface.png);
+    height: auto;
+    width: auto;
+    
+    background-size:contain;
+}
+
+
+
+.icons_row {
+    padding-bottom: 80px !important;
+}
+
+.footer_text {
+    color: #BDBDBD;
+    
+}
+
+
+
+
+
+
+
+.mini_headlines {
+    padding: 20px;
+    margin-top: 10px !important;
+}
+
+.dialog_text {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.dialog_headline {
+    margin-bottom: 50px !important;
+}
+
+.cross_icon {
+    margin: 20px;
+    height: 15px !important;
+    width: 15px !important;
+    color: dimgrey;
+}

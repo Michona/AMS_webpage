@@ -599,8 +599,7 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+
   width: 100%;
 }
 
@@ -632,8 +631,7 @@ pre code {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+ 
   width: 100%;
 }
 
@@ -642,8 +640,7 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  
 }
 
 .no-gutters {
@@ -666,8 +663,7 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  
 }
 
 .col {
@@ -1695,8 +1691,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -5px;
-  margin-left: -5px;
+  
 }
 
 .form-row > .col,
@@ -3766,8 +3761,7 @@ tbody.collapse.show {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+   
   }
   .card-deck .card {
     display: -ms-flexbox;
@@ -3776,8 +3770,7 @@ tbody.collapse.show {
         flex: 1 0 0%;
     -ms-flex-direction: column;
         flex-direction: column;
-    margin-right: 15px;
-    margin-left: 15px;
+  
   }
 }
 
@@ -4661,7 +4654,7 @@ button.close {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 15px;
+  
   border-bottom: 1px solid #e9ecef;
 }
 
@@ -4674,7 +4667,7 @@ button.close {
   position: relative;
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
-  padding: 15px;
+  
 }
 
 .modal-footer {
@@ -4684,7 +4677,7 @@ button.close {
       align-items: center;
   -ms-flex-pack: end;
       justify-content: flex-end;
-  padding: 15px;
+
   border-top: 1px solid #e9ecef;
 }
 
